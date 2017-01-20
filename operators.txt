@@ -1,0 +1,93 @@
+== Aggregate ==
+
+reduce
+toArray
+
+== Binding ==
+
+multicast
+publish
+replay
+replayAll
+refCount
+share
+shareReplay
+shareReplayLatestWhileConnected
+
+== Concurrency ==
+
+observeOn
+subscribeOn
+
+== Creation ==
+
+create
+empty
+never
+just
+error
+of
+deferred
+generate
+repeatElement
+using
+range
+from
+
+== Multiple ==
+
+combineLatest
+zip
+switchLatest
+concat
+merge
+catchError
+catchErrorJustReturn
+takeUntil
+skipUntil
+amb
+withLatestFrom
+
+== Single ==
+
+distinctUntilChanged
+do
+startWith
+retry
+retryWhen
+scan
+
+== Sequence ==
+
+filter
+takeWhile
+takeWhileWithIndex
+take
+takeLast
+skip
+skipWhile
+skipWhileWithIndex
+map
+mapWithIndex
+flatMap
+flatMapWithIndex
+flatMapFirst       
+flatMapLatest
+elementAt
+single
+
+== Time ==
+
+throttle
+debounce
+sample
+interval
+timer
+take
+skip
+ignoreElements
+delaySubscription
+buffer
+window
+timeout
+delay
